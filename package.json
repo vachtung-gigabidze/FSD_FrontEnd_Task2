@@ -1,0 +1,28 @@
+{
+  "name": "fsd_frontend_task2",
+  "version": "1.0.0",
+  "description": "Обучающее задание на фронтэнд разработчика. Задание 2е. Практика верстки.",
+  "main": "index.js",
+  "scripts": {
+    "rimraf": "npx rimraf build",
+    "sass": "node-sass --output-style compressed -o build/css src/styles",
+    "template.pug": "pug --output-style compress -o build src/templates/index.pug ",    
+    "test": "echo \"Error: no test specified\" && exit 1"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vachtung-gigabidze/FSD_FrontEnd_Task2.git"
+  },
+  "author": "Дмитрий З.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vachtung-gigabidze/FSD_FrontEnd_Task2/issues"
+  },
+  "homepage": "https://github.com/vachtung-gigabidze/FSD_FrontEnd_Task2#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "pug": "^3.0.0",
+    "pug-cli": "^1.0.0-alpha6",
+    "rimraf": "^3.0.2"
+  }
+}
