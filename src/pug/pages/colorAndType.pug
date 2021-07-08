@@ -1,0 +1,43 @@
+extends ../layout/main
+
+block variables
+  - var title = 'Webpack + Pug';
+  - var description = 'Description for Webpack + Pug';
+  - var pageClass = 'index-page';
+
+block content
+    .logo 
+        .container
+            .column-color
+                +colorBox('dark-shade100','Dark Shade 100%','#1F2041')
+                +colorBox('dark-shade75','Dark Shade 75%','#1F2041')
+                +colorBox('dark-shade50','Dark Shade 50%','#1F2041')
+                +colorBox('dark-shade25','Dark Shade 25%','#1F2041')
+                +colorBox('dark-shade5','Dark Shade 5%','#1F2041')
+                +colorBox('purple','Purple','#BC9CFF')
+                +colorBox('green','Green','#6FCF97')
+            .column-font 
+                .font-box
+                    .font-box_caption    
+                        h1 H1 
+                    .font-box_text 
+                        h1 This one is the sub-section or widget title
+                .font-box
+                    .font-box_caption    
+                        h2 H2 
+                    .font-box_text 
+                        h2 Next one is the item title inside widgets
+                .font-box
+                    .font-box_caption    
+                        h3 H3 
+                    .font-box_text 
+                        h3 This is a label or CTA text
+                .font-box
+                    .font-box_caption    
+                        p Body 
+                    .font-box_text 
+                        p This This is the body text which is used for most of the design, like paragraphs, lists, etc.
+
+
+
+

@@ -1,0 +1,12 @@
+mixin item(title, descr)
+  .item
+    h2.item-title= title
+    p.item-descr= descr
+
+mixin colorBox(colorClass, caption, hexcode)    
+  .colorbox 
+    .colorbox_color(class="colorClass") 
+    .colorbox_caption 
+      p= caption
+    .colorbox_hexcode 
+      p= hexcode
