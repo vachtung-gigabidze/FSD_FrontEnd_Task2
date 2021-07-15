@@ -4,6 +4,7 @@
 @import "utils/fonts";
 @import "utils/reset";
 @import "blocks/logo-ui-kit";
+@import "pages/colorAndTypes";
 
 
 html {
@@ -72,11 +73,12 @@ section, .section {
 }
 
 .container {
-  width: 100%;
-  flex: 0 0 auto;
-  position: relative;
-  margin: 0 auto;
-  max-width: $desktopWidth;
+    
+  // width: 100%;
+  // flex: 0 0 auto;
+  // position: relative;
+  // margin: 0 auto;
+  // max-width: $desktopWidth;
   @media screen and (max-width: $smDesktopWidth) {
     max-width: tableWidth;
   }

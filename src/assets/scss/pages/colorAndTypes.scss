@@ -1,0 +1,10 @@
+.uikit-container {
+    column-gap: calc(100% - 886px);
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    padding-left: 10.41667%;
+    padding-right: 10.41667%;
+    padding-top: 2.3125rem;
+    row-gap: 50px;
+    display: flex;
+    justify-content: space-around;
+}
